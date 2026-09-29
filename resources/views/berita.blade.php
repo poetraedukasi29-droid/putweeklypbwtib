@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teknologi Informasi</title>
-</head>
-<body>
-    <h1>Berita</h1>
-</body>
-</html>
+@extends('layouts.main')
+
+@section('content')
+
+    <h1>JUDUL</h1>
+    <h2>PENULIS</h2>
+    <p>Paragraf</p>
+
+@endsection
